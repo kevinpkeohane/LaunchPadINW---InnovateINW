@@ -38,7 +38,14 @@
   <p class="photo-note">Meet the team supporting InnovateINW programs, events, partnerships, and founder development.</p>
 </div></section>
 
-<section class="section"><div class="wrap split"><div><h2>Tell us how to route you.</h2><p class="lead">Share who you are, what you are building or supporting, and what kind of connection would help. We’ll route you to the right program, event, or partner path.</p></div><div class="formbox"><label>Name</label><input><label>Email</label><input><label>Organization</label><input><label>What are you looking for?</label><textarea></textarea><p><a class="btn" href="#">Submit inquiry</a></p></div></div></section></main><footer class="footer"><div class="wrap"><strong>InnovateINW</strong><p>Driving successful innovation in the Inland Northwest.</p><p style="font-size:13px">Building the Inland Northwest innovation economy.</p></div></footer>
+<section class="section"><div class="wrap split"><div><h2>Tell us how to route you.</h2><p class="lead">Share who you are, what you are building or supporting, and what kind of connection would help. We’ll route you to the right program, event, or partner path.</p></div><form class="formbox" action="mailto:info@launchpadinw.com?subject=InnovateINW%20routing%20request%20-%20About" method="post" enctype="text/plain">
+  <input type="hidden" name="Source page" value="about.html">
+  <label for="route-name-about">Name</label><input id="route-name-about" name="Name" required>
+  <label for="route-email-about">Email</label><input id="route-email-about" name="Email" type="email" required>
+  <label for="route-org-about">Organization</label><input id="route-org-about" name="Organization">
+  <label for="route-message-about">What are you looking for?</label><textarea id="route-message-about" name="What are you looking for" required></textarea>
+  <p><button class="btn" type="submit">Submit inquiry</button></p>
+</form></div></section></main><footer class="footer"><div class="wrap"><strong>InnovateINW</strong><p>Driving successful innovation in the Inland Northwest.</p><p style="font-size:13px">Building the Inland Northwest innovation economy.</p></div></footer>
 <script>
 (function(){
   document.querySelectorAll('.menu-toggle').forEach(function(button){

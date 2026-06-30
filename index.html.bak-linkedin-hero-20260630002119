@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>InnovateINW | Building the Innovation Economy in the INW</title>
+  <link rel="stylesheet" href="styles.css?v=15">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><img src="innovateinw-logo-launchpad.svg" alt="InnovateINW powered by LaunchPad"></a><button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="menu">
+      <a href="springboard.html">Springboard</a>
+      <a href="scale.html">Scale</a>
+      <a href="masterclasses.html">Masterclasses</a>
+      <a href="events.html">Events</a>
+      <a href="ai-cyber-network.html">AI & Cyber</a>
+      <a href="partners.html">Partners</a>
+      <a href="about.html">About</a>
+      <a class="btn" href="participate.html">Get Involved</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero home-hero" style="background:linear-gradient(90deg,rgba(42,30,90,.94),rgba(42,30,90,.60)),url('https://launchpadinw.com/wp-content/uploads/2025/05/IMG_4463-scaled.jpeg');background-size:cover;background-position:center">
+  <div class="container">
+    <div class="eyebrow">InnovateINW</div>
+    <h1>Creating the innovation economy in the INW.</h1>
+    <p>You shouldn’t build your company without your community — and with us, you won’t.</p>
+    <div class="buttonrow">
+      <a class="btn" href="#roles">Find Your Fit</a>
+      <a class="btn alt" href="events.html">View Events</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="roles" class="section alt role-router-section">
+    <div class="container">
+      <h2>What is your role in the innovation economy?</h2>
+      <p class="lead">Start with the path that fits where you are today.</p>
+      <div class="cards">
+        <a class="card path-card role-router-card" href="springboard.html">
+          <div class="coin">1</div>
+          <h3>I’m building something new</h3>
+          <p>For founders and entrepreneurs with an idea, early product, or early-stage company who need validation, structure, and the right people around the table.</p>
+          <span class="btn light">Explore Springboard</span>
+        </a>
+        <a class="card path-card role-router-card" href="scale.html">
+          <div class="coin">2</div>
+          <h3>I’m ready to grow or rescale</h3>
+          <p>For startups and established organizations that want help thinking through the next stage of growth.</p>
+          <span class="btn light">Explore Scale</span>
+        </a>
+        <a class="card path-card role-router-card" href="university-labs.html">
+          <div class="coin">3</div>
+          <h3>I represent a university innovation lab</h3>
+          <p>For research, commercialization, and academic teams connecting innovation with founders, companies, investors, and regional partners.</p>
+          <span class="btn light">Partner With Us</span>
+        </a>
+        <a class="card path-card role-router-card" href="participate.html">
+          <div class="coin">4</div>
+          <h3>I want to participate or support</h3>
+          <p>For mentors, investors, sponsors, foundations, venues, service providers, and partners who can contribute resources or expertise.</p>
+          <span class="btn light">Get Involved</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section white home-events-section">
+    <div class="container split visual-split">
+      <div>
+        <div class="eyebrow purple-eyebrow">Events</div>
+        <h2>Meet the people building the region’s innovation economy.</h2>
+        <p class="lead">Find practical events you can click into, register for, and use to meet founders, operators, investors, mentors, and regional partners.</p>
+        <div class="event-stack">
+          <div class="event mini-event">
+            <div class="date">TBD</div>
+            <div><h3>Founder and startup sessions</h3><p class="muted">Workshops, mentor sessions, and Springboard-related events.</p></div>
+            <a class="btn" href="events.html">Register</a>
+          </div>
+          <div class="event mini-event">
+            <div class="date">TBD</div>
+            <div><h3>AI & Cyber Network</h3><p class="muted">Regional conversations around AI adoption, cybersecurity readiness, and technical talent.</p></div>
+            <a class="btn" href="events.html">Details</a>
+          </div>
+          <div class="event mini-event">
+            <div class="date">TBD</div>
+            <div><h3>Masterclasses</h3><p class="muted">Focused working sessions on sales, go-to-market, funding, AI, operations, and commercialization.</p></div>
+            <a class="btn" href="masterclasses.html">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="section-photo event-photo" style="background-image:url('https://launchpadinw.com/wp-content/uploads/2025/05/HA2_1916.jpeg')">
+        <span>InnovateINW community in action</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section white home-linkedin-section">
+    <div class="container">
+      <div class="section-heading-row" style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:28px; flex-wrap:wrap; gap:16px;">
+        <div>
+          <div class="eyebrow purple-eyebrow">Latest Updates</div>
+          <h2>Explore the latest from InnovateINW.</h2>
+          <p class="lead">Updates, articles, and insights directly from our LinkedIn regional network.</p>
+        </div>
+        <a class="btn alt-purple-btn" href="https://www.linkedin.com/company/launchpad-inland-northwest/" target="_blank" rel="noopener">
+          <svg style="width:20px;height:20px;fill:currentColor;margin-right:8px;vertical-align:middle" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg> Follow on LinkedIn
+        </a>
+      </div>
+      
+      <div class="cards three article-cards">
+        <div class="card article-card">
+          <div class="article-meta">LinkedIn Article — June 2026</div>
+          <h3>InnovateINW: Building the Next Chapter for the Inland Northwest</h3>
+          <p>The Inland Northwest has always had a strong spirit of ingenuity, resilience, and collaboration. Today, that spirit is coming together in a new way through InnovateINW — a regional initiative designed to strengthen the innovation economy...</p>
+          <a class="btn light" href="https://www.linkedin.com/pulse/innovateinw-building-next-chapter-inland-northwest-tbl3c?utm_source=share&utm_medium=member_ios&utm_campaign=share_via" target="_blank" rel="noopener">Read Article</a>
+        </div>
+        <div class="card article-card">
+          <div class="article-meta">Partner Spotlight — June 2026</div>
+          <h3>Partner Spotlight: Burbity Workspaces & Ann Long</h3>
+          <p>At LaunchPad INW, we believe the right environment can elevate every conversation, every collaboration, and every moment of momentum. That’s why we’re grateful for our partnership with Burbity Workspaces and Ann Long...</p>
+          <a class="btn light" href="https://www.linkedin.com/posts/launchpad-inland-northwest_spokane-inlandnorthwest-innovationecosystem-activity-7472400381394853889-huTn?utm_source=share&utm_medium=member_ios&rcm=ACoAABi7xSoBVWR87_BJbWWkPtyp-wissL8Infk" target="_blank" rel="noopener">View Post</a>
+        </div>
+        <div class="card article-card">
+          <div class="article-meta">Event Update — May 2026</div>
+          <h3>InnovateINW Event Update: AI + Cyber Network</h3>
+          <p>If you are a founder, startup, researcher, university partner, or a leader trying to figure out what AI, cybersecurity, or advanced computing could mean for your organization — the InnovateINW AI + Cyber Network is here for you...</p>
+          <a class="btn light" href="https://www.linkedin.com/posts/launchpad-inland-northwest_innovateinw-inlandnorthwest-ai-activity-7467303530815598592-qKA1?utm_source=share&utm_medium=member_ios&rcm=ACoAABi7xSoBVWR87_BJbWWkPtyp-wissL8Infk" target="_blank" rel="noopener">View Post</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section alt programs-section">
+    <div class="container">
+      <div class="section-heading-row">
+        <div>
+          <div class="eyebrow purple-eyebrow">Programs & Services</div>
+          <h2>What we offer.</h2>
+          <p class="lead">A simpler view of the work: programs that help people validate, grow, learn, and connect.</p>
+        </div>
+      </div>
+      <div class="cards three program-cards">
+        <div class="card program-card">
+          <div class="program-image" style="background-image:url('https://launchpadinw.com/wp-content/uploads/2025/05/IMG_4451-scaled.jpeg')"></div>
+          <h3>Springboard</h3>
+          <p>A hands-on startup sprint for founders who need to validate the idea, sharpen the business model, and build traction.</p>
+          <a class="btn" href="springboard.html">Apply to Springboard</a>
+        </div>
+        <div class="card program-card">
+          <div class="program-image" style="background-image:url('https://launchpadinw.com/wp-content/uploads/2025/05/unnamed-3.jpg')"></div>
+          <h3>Masterclasses & Services</h3>
+          <p>Practical sessions and operator support around sales, go-to-market, customer discovery, funding readiness, AI, cybersecurity, and operations.</p>
+          <a class="btn" href="masterclasses.html">View Masterclasses</a>
+        </div>
+        <div class="card program-card">
+          <div class="program-image" style="background-image:url('https://launchpadinw.com/wp-content/uploads/2025/03/P1052662-Enhanced-NR3.jpg')"></div>
+          <h3>Regional Network</h3>
+          <p>Connections among founders, universities, established companies, mentors, sponsors, investors, and civic partners across the Inland Northwest.</p>
+          <a class="btn" href="partners.html">See Partners</a>
+        </div>
+      </div>
+
+      <div class="route-strip">
+        <div>
+          <h3>Not sure where you fit?</h3>
+          <p>Tell us how to route you and we’ll point you toward the right program, event, or partner path.</p>
+        </div>
+        <a class="btn" href="participate.html">Tell Us How to Route You</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <strong>InnovateINW</strong>
+    <p>Driving successful innovation in the Inland Northwest.</p>
+    <p style="font-size:13px">Building the Inland Northwest innovation economy.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  document.querySelectorAll('.menu-toggle').forEach(function(button){
+    button.addEventListener('click', function(){
+      var nav = button.closest('.nav');
+      var open = nav.classList.toggle('open');
+      button.setAttribute('aria-expanded', open ? 'true' : 'false');
+      button.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+  });
+})();
+</script>
+</body>
+</html>

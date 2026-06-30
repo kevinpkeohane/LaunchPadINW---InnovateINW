@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Masterclasses</title><link rel="stylesheet" href="styles.css?v=15"></head><body><nav class="nav"><div class="container nav-inner"><a class="brand" href="index.html"><img src="innovateinw-logo-launchpad.svg" alt="InnovateINW powered by LaunchPad"></a><button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button><div class="menu"><a href="springboard.html">Springboard</a><a href="scale.html">Scale</a><a href="masterclasses.html">Masterclasses</a><a href="events.html">Events</a><a href="ai-cyber-network.html">AI & Cyber</a><a href="partners.html">Partners</a><a href="about.html">About</a><a class="btn" href="participate.html">Get Involved</a></div></div></nav><header class="hero" style="--img:url(https://upload.wikimedia.org/wikipedia/commons/d/db/Barley_field-2007-02-22%28large%29.jpg)"><div class="wrap"><div class="eyebrow">InnovateINW</div><h1>Focused sessions for real growth questions.</h1><p>InnovateINW masterclasses help founders, operators, and regional organizations work through practical questions tied to growth, rescaling, commercialization, and technical readiness.</p><p><a class="btn" href="#">View Upcoming</a></p></div></header><main>
+<section class="section white"><div class="wrap split"><div><h2>Masterclasses are part of the service model.</h2><p class="lead">They are not generic events. They are focused working sessions for real business questions tied to growth, rescaling, commercialization, and technical readiness.</p><p>The format may include expert instruction, working time, peer feedback, templates, and follow-up paths into Springboard, Scale, AI & Cyber Network, or partner support.</p></div><div class="panel"><h3>Candidate topics</h3><ul><li>Go-to-market strategy</li><li>Sales systems and pipeline</li><li>Investor readiness</li><li>Financial modeling</li><li>AI adoption</li><li>Cybersecurity readiness</li><li>Commercialization pathways</li><li>Operations and organizational capacity</li></ul></div></div></section>
+<section class="section"><div class="wrap"><h2>Upcoming masterclasses</h2><div class="event"><div class="date">TBD</div><div><h3>Go-to-Market Working Session</h3><p class="muted">Registration details will be added as dates are confirmed.</p></div><a class="btn" href="#">Details</a></div><div class="event"><div class="date">TBD</div><div><h3>AI Adoption for Regional Organizations</h3><p class="muted">Registration details will be added as dates are confirmed.</p></div><a class="btn" href="#">Details</a></div></div></section>
+</main><footer class="footer"><div class="wrap"><strong>InnovateINW</strong><p>Driving successful innovation in the Inland Northwest.</p><p class="credit">Building the Inland Northwest innovation economy.</p></div></footer>
+<script>
+(function(){
+  document.querySelectorAll('.menu-toggle').forEach(function(button){
+    button.addEventListener('click', function(){
+      var nav = button.closest('.nav');
+      var open = nav.classList.toggle('open');
+      button.setAttribute('aria-expanded', open ? 'true' : 'false');
+      button.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+  });
+})();
+</script>
+</body></html>

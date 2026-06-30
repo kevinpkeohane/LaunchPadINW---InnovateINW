@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Springboard | InnovateINW</title>
+  <link rel="stylesheet" href="styles.css?v=15">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><img src="innovateinw-logo-launchpad.svg" alt="InnovateINW powered by LaunchPad"></a><button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="menu">
+      <a href="springboard.html">Springboard</a>
+      <a href="scale.html">Scale</a>
+      <a href="masterclasses.html">Masterclasses</a>
+      <a href="events.html">Events</a>
+      <a href="ai-cyber-network.html">AI & Cyber</a>
+      <a href="partners.html">Partners</a>
+      <a href="about.html">About</a>
+      <a class="btn" href="participate.html">Get Involved</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero springboard-hero" style="background:linear-gradient(90deg,rgba(42,30,90,.95),rgba(42,30,90,.58)),url('https://launchpadinw.com/wp-content/uploads/2025/05/IMG_4451-scaled.jpeg');background-size:cover;background-position:center">
+  <div class="container">
+    <div class="eyebrow">Springboard</div>
+    <h1>We help startups validate their idea and get traction.</h1>
+    <p>Springboard is a 90-day, hands-on sprint for Inland Northwest founders who need structure, customer discovery, business model clarity, and a practical path toward momentum.</p>
+    <div class="buttonrow">
+      <a class="btn" href="#apply">Apply to Springboard</a>
+      <a class="btn alt" href="#process">See the Process</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section white">
+    <div class="container split visual-split">
+      <div>
+        <div class="eyebrow purple-eyebrow">What it is</div>
+        <h2>A founder sprint built around validation.</h2>
+        <p class="lead">Springboard helps early-stage tech and life science companies in the Inland Northwest test the business, learn from customers, and prepare for the next right step.</p>
+        <p>The goal is not to make founders look busy. The goal is to help companies gain traction and become more investable through a clear process, expert feedback, and community support.</p>
+      </div>
+      <div class="panel emphasis-panel">
+        <h3>Springboard is for founders who need:</h3>
+        <ul>
+          <li>Problem and customer validation</li>
+          <li>Lean canvas and business model development</li>
+          <li>Go-to-market thinking and early traction</li>
+          <li>Pitch, advisor, and investor readiness</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="section alt process-section">
+    <div class="container">
+      <div class="eyebrow purple-eyebrow">Process</div>
+      <h2>From idea to traction.</h2>
+      <p class="lead">The process moves founders through foundation building, customer discovery, and business development — using InnovateINW colors and a clearer sequence.</p>
+      <div class="process-timeline">
+        <div class="phase phase-gold">
+          <div class="phase-label">Phase 1</div>
+          <h3>Foundation Building</h3>
+          <ol>
+            <li>Initial meeting and approval</li>
+            <li>Lean canvas development</li>
+            <li>Customer discovery</li>
+            <li>Problem / solution fit</li>
+          </ol>
+        </div>
+        <div class="phase phase-teal">
+          <div class="phase-label">Phase 2</div>
+          <h3>Build, Measure, Learn</h3>
+          <ol>
+            <li>MVP or early product learning</li>
+            <li>Market and customer testing</li>
+            <li>Go-to-market strategy</li>
+            <li>Traction milestones</li>
+          </ol>
+        </div>
+        <div class="phase phase-purple">
+          <div class="phase-label">Phase 3</div>
+          <h3>Business Development</h3>
+          <ol>
+            <li>Financial, legal, and operations review</li>
+            <li>Pitch deck development</li>
+            <li>Advisor pitch sessions</li>
+            <li>Program graduation</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section white learning-loop-section">
+    <div class="container split visual-split">
+      <div>
+        <div class="eyebrow purple-eyebrow">Learning Loop</div>
+        <h2>Build. Measure. Learn.</h2>
+        <p class="lead">Springboard keeps founders focused on the loop that matters: build the smallest useful experiment, measure what customers actually do, and learn what to change next.</p>
+        <p>That rhythm keeps the work practical. Founders leave with evidence, not just opinions.</p>
+      </div>
+      <div class="bml-cycle" aria-label="Build Measure Learn cycle">
+        <div class="bml-node build"><strong>Build</strong><span>MVP / experiment</span></div>
+        <div class="bml-arrow arrow-one">→</div>
+        <div class="bml-node measure"><strong>Measure</strong><span>Customer evidence</span></div>
+        <div class="bml-arrow arrow-two">→</div>
+        <div class="bml-node learn"><strong>Learn</strong><span>Next decision</span></div>
+        <div class="bml-arrow arrow-three">↺</div>
+        <div class="bml-center">Validated<br>Learning</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt testimonial-section">
+    <div class="container testimonial-card">
+      <div class="testimonial-photo" style="background-image:url('https://launchpadinw.com/wp-content/uploads/2025/05/Jennifer-Wilde-Springboard-Client.png')"></div>
+      <div>
+        <div class="eyebrow purple-eyebrow">Founder Testimonial</div>
+        <h2>“Springboard has been an invaluable partner in turning my vision into reality.”</h2>
+        <p class="testimonial-quote">“As a nurse with no prior business experience, I was overwhelmed by the complexities of launching a startup. Springboard guided me every step of the way—from refining my idea with the lean canvas method to developing a fully functional app that is already making a difference in ER nurse training. Their support in securing funding and connecting me with the right advisors has been instrumental in the early success of WildeCare Education. I couldn’t have done it without them.”</p>
+        <p class="testimonial-name">Jennifer Wilde — Springboard Client</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section white photo-proof-section">
+    <div class="container">
+      <div class="eyebrow purple-eyebrow">Founder Community</div>
+      <h2>Build with people who understand the path.</h2>
+      <p class="lead">Springboard surrounds founders with mentors, operators, peers, and regional partners who can help test assumptions, open doors, and keep the work moving.</p>
+      <div class="photo-gallery compact-gallery">
+        <div class="photo-card" style="background-image:url(https://launchpadinw.com/wp-content/uploads/2025/05/HA2_1688.jpeg)"><span>Regional innovation event</span></div>
+        <div class="photo-card" style="background-image:url(https://launchpadinw.com/wp-content/uploads/2025/05/IMG_4463-scaled.jpeg)"><span>Founder workshop</span></div>
+        <div class="photo-card" style="background-image:url(https://launchpadinw.com/wp-content/uploads/2025/06/IMG_2503-scaled.jpeg)"><span>Community detail</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="apply" class="section alt apply-section">
+    <div class="container split visual-split">
+      <div>
+        <div class="eyebrow purple-eyebrow">Apply</div>
+        <h2>Tell us how to route you.</h2>
+        <p class="lead">Use the Springboard application to share where you are, what you are building, and how InnovateINW can help route you to the right next step.</p>
+        <p>This embedded Copper form captures the Springboard application directly for follow-up.</p>
+      </div>
+      <div class="formbox copper-box">
+        <iframe src="https://forms.copper.com/j/aN6NdSNddtWbc1t8mGswS2?type=embed" id="aN6NdSNddtWbc1t8mGswS2" title="Embedded Copper Forms" width="500" height="700" frameborder="0"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <strong>InnovateINW</strong>
+    <p>Driving successful innovation in the Inland Northwest.</p>
+    <p style="font-size:13px">Building the Inland Northwest innovation economy.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  document.querySelectorAll('.menu-toggle').forEach(function(button){
+    button.addEventListener('click', function(){
+      var nav = button.closest('.nav');
+      var open = nav.classList.toggle('open');
+      button.setAttribute('aria-expanded', open ? 'true' : 'false');
+      button.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+  });
+})();
+</script>
+</body>
+</html>

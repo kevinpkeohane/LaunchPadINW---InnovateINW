@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Springboard Scale | InnovateINW</title>
+  <link rel="stylesheet" href="styles.css?v=10">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><img src="innovateinw-logo-launchpad.svg" alt="InnovateINW powered by LaunchPad"></a>
+    <div class="menu">
+      <a href="springboard.html">Springboard</a>
+      <a href="scale.html">Scale</a>
+      <a href="masterclasses.html">Masterclasses</a>
+      <a href="events.html">Events</a>
+      <a href="ai-cyber-network.html">AI & Cyber</a>
+      <a href="partners.html">Partners</a>
+      <a href="about.html">About</a>
+      <a class="btn" href="participate.html">Get Involved</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero scale-hero" style="background:linear-gradient(90deg,rgba(42,30,90,.95),rgba(42,30,90,.58)),url('https://launchpadinw.com/wp-content/uploads/2025/06/IMG_2490-scaled.jpeg');background-size:cover;background-position:center">
+  <div class="container">
+    <div class="eyebrow">Springboard Scale</div>
+    <h1>Growth support is being defined.</h1>
+    <p>We are keeping this page intentionally simple until the Scale program is nailed down. For now, it signals the direction without over-promising the offer.</p>
+    <div class="buttonrow"><a class="btn" href="participate.html">Ask About Scale</a></div>
+  </div>
+</header>
+
+<main>
+  <section class="section white">
+    <div class="container split visual-split">
+      <div>
+        <div class="eyebrow purple-eyebrow">Working Direction</div>
+        <h2>For companies preparing for the next stage.</h2>
+        <p class="lead">Scale will be shaped around practical growth needs for startups entering revenue or investment conversations, and for regional organizations adapting to new markets or opportunities.</p>
+        <p>Until the program definition is final, this page should stay clean: a short explanation, a few likely focus areas, and a clear inquiry path.</p>
+      </div>
+      <div class="section-photo" style="background-image:url('https://launchpadinw.com/wp-content/uploads/2025/05/HA2_0572.jpeg')"><span>Growth conversations</span></div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>Likely focus areas.</h2>
+      <p class="lead">These are directional placeholders until the Scale offer is finalized.</p>
+      <div class="cards three">
+        <div class="card"><h3>Growth strategy</h3><p>Clarifying the next market, customer, channel, or partnership move.</p></div>
+        <div class="card"><h3>Go-to-market support</h3><p>Sharper messaging, sales motion, and practical execution support.</p></div>
+        <div class="card"><h3>Advisor connections</h3><p>Routing companies toward mentors, operators, and regional partners who can help.</p></div>
+      </div>
+      <div class="route-strip">
+        <div>
+          <h3>Want to talk through Scale?</h3>
+          <p>Tell us where the company is now and we’ll route the inquiry to the right conversation.</p>
+        </div>
+        <a class="btn" href="participate.html">Tell Us How to Route You</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <strong>InnovateINW</strong>
+    <p>Driving successful innovation in the Inland Northwest.</p>
+    <p style="font-size:13px">Prototype v10 — Scale intentionally simplified while program details are finalized.</p>
+  </div>
+</footer>
+</body>
+</html>

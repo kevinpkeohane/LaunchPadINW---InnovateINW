@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Springboard Scale | InnovateINW</title>
+  <link rel="stylesheet" href="styles.css?v=15">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><img src="innovateinw-logo-launchpad.svg" alt="InnovateINW powered by LaunchPad"></a><button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="menu">
+      <a href="springboard.html">Springboard</a>
+      <a href="scale.html">Scale</a>
+      <a href="masterclasses.html">Masterclasses</a>
+      <a href="events.html">Events</a>
+      <a href="ai-cyber-network.html">AI & Cyber</a>
+      <a href="partners.html">Partners</a>
+      <a href="about.html">About</a>
+      <a class="btn" href="participate.html">Get Involved</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero scale-hero" style="background:linear-gradient(90deg,rgba(42,30,90,.95),rgba(42,30,90,.58)),url('https://launchpadinw.com/wp-content/uploads/2025/06/IMG_2490-scaled.jpeg');background-size:cover;background-position:center">
+  <div class="container">
+    <div class="eyebrow">Springboard Scale</div>
+    <h1>Support for companies preparing for the next stage of growth.</h1>
+    <p>Springboard Scale helps startups and regional businesses sharpen strategy, strengthen go-to-market execution, and connect with the advisors and partners needed to grow.</p>
+    <div class="buttonrow"><a class="btn" href="participate.html">Ask About Scale</a></div>
+  </div>
+</header>
+
+<main>
+  <section class="section white">
+    <div class="container split visual-split">
+      <div>
+        <div class="eyebrow purple-eyebrow">Growth Support</div>
+        <h2>For companies with momentum and real decisions ahead.</h2>
+        <p class="lead">Scale is built for teams that have moved beyond the first idea and need practical help with customers, revenue, partnerships, capital, or market expansion.</p>
+        <p>Companies can use InnovateINW to connect with operators, advisors, technical experts, and regional partners who can help clarify the next move.</p>
+      </div>
+      <div class="section-photo" style="background-image:url('https://launchpadinw.com/wp-content/uploads/2025/05/HA2_0572.jpeg')"><span>Growth conversations</span></div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>Likely focus areas.</h2>
+      <p class="lead">Practical support for teams working through growth, market, and execution questions.</p>
+      <div class="cards three">
+        <div class="card"><h3>Growth strategy</h3><p>Clarifying the next market, customer, channel, or partnership move.</p></div>
+        <div class="card"><h3>Go-to-market support</h3><p>Sharper messaging, sales motion, and practical execution support.</p></div>
+        <div class="card"><h3>Advisor connections</h3><p>Routing companies toward mentors, operators, and regional partners who can help.</p></div>
+      </div>
+      <div class="route-strip">
+        <div>
+          <h3>Want to talk through Scale?</h3>
+          <p>Tell us where the company is now and we’ll connect you with the right next conversation.</p>
+        </div>
+        <a class="btn" href="participate.html">Tell Us How to Route You</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <strong>InnovateINW</strong>
+    <p>Driving successful innovation in the Inland Northwest.</p>
+    <p style="font-size:13px">Building the Inland Northwest innovation economy.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  document.querySelectorAll('.menu-toggle').forEach(function(button){
+    button.addEventListener('click', function(){
+      var nav = button.closest('.nav');
+      var open = nav.classList.toggle('open');
+      button.setAttribute('aria-expanded', open ? 'true' : 'false');
+      button.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+  });
+})();
+</script>
+</body>
+</html>

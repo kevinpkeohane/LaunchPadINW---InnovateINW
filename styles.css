@@ -149,3 +149,19 @@ a.role-router-card:hover{
 
 /* v18: homepage featured Eventbrite events with visual cards */
 .home-event-cards{display:grid;gap:18px}.home-event-card{background:#fff;border:1px solid #DDD4EC;border-radius:24px;overflow:hidden;box-shadow:0 14px 30px rgba(42,30,90,.10)}.home-event-image{display:block;min-height:170px;background-size:cover;background-position:center;position:relative}.home-event-image:after,.event-visual-card:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(42,30,90,0),rgba(42,30,90,.78))}.home-event-image span,.event-visual-card span{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;color:#fff;font-weight:900;text-shadow:0 2px 8px rgba(0,0,0,.35)}.home-event-body{display:grid;grid-template-columns:86px 1fr;gap:16px;padding:20px}.home-event-body h3{margin:0 0 8px;color:#2A1E5A;font-size:23px;line-height:1.18}.home-event-body p{margin:0 0 12px}.home-event-visuals{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:210px;gap:16px}.event-visual-card{position:relative;border-radius:24px;overflow:hidden;background-size:cover;background-position:center;box-shadow:0 16px 34px rgba(42,30,90,.16);min-height:210px}.event-visual-card.large{grid-column:1 / -1;min-height:260px}.event-visual-card:hover,.home-event-image:hover{transform:translateY(-2px);box-shadow:0 20px 40px rgba(42,30,90,.22)!important}@media(max-width:900px){.home-event-body{grid-template-columns:1fr}.home-event-visuals{grid-template-columns:1fr}.event-visual-card.large{min-height:220px}}
+
+/* v20: July 14 enhancement pass — aligned hero actions, guidance copy, form placement and Springboard tabs */
+.hero-actions{display:flex!important;align-items:stretch!important;gap:12px!important;flex-wrap:wrap!important;margin:0!important}
+.hero-actions .btn{display:inline-flex!important;align-items:center!important;justify-content:center!important;margin:0!important;min-height:50px!important}
+.hero-actions .linkedin-hero-btn{margin-left:0!important}
+.home-guidance-section{border-bottom:1px solid #DDD4EC}.home-guidance-copy{max-width:940px!important}.home-guidance-copy p{max-width:900px}.home-guidance-copy .lead{max-width:900px}.guidance-close{font-size:24px!important;color:#2A1E5A!important;margin:28px 0 0}.general-contact-section{border-top:1px solid #DDD4EC}
+.application-intro{max-width:900px}.form-tabs{margin-top:30px}.tab-list{display:flex;gap:10px;flex-wrap:wrap;border-bottom:2px solid #DDD4EC;padding:0 0 12px;margin-bottom:22px}.form-tab{appearance:none;border:2px solid #DDD4EC;background:#fff;color:#2A1E5A;border-radius:999px;padding:13px 20px;font:inherit;font-size:16px;font-weight:900;cursor:pointer}.form-tab:hover,.form-tab:focus-visible{border-color:#6B46C1;outline:3px solid rgba(107,70,193,.18);outline-offset:2px}.form-tab.active{background:#2A1E5A;color:#fff;border-color:#2A1E5A}.tab-panel[hidden]{display:none!important}.tab-panel{max-width:880px}.tab-panel .copper-box{padding:0}.tab-panel .copper-box iframe{height:760px}
+@media(max-width:760px){.hero-actions{flex-direction:column!important;align-items:stretch!important}.hero-actions .btn{width:100%!important;margin:0!important}.tab-list{display:grid;grid-template-columns:1fr}.form-tab{width:100%}.tab-panel .copper-box iframe{height:820px}}
+
+/* v21: homepage alignment corrections and restored Masterclasses event */
+.home-guidance-copy{max-width:1160px!important;width:calc(100% - 40px)!important;margin-left:auto!important;margin-right:auto!important}
+.home-guidance-copy p,.home-guidance-copy .lead{max-width:900px}
+.home-events-intro{max-width:780px;margin-bottom:28px}
+.home-events-layout{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:start}
+.home-events-layout .event-photo{align-self:start;min-height:430px;margin:0}
+@media(max-width:900px){.home-events-layout{grid-template-columns:1fr}.home-events-layout .event-photo{min-height:300px}}

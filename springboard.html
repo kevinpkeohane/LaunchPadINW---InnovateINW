@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Springboard | InnovateINW</title>
-  <link rel="icon" type="image/svg+xml" href="innovateinw-favicon.svg"><link rel="stylesheet" href="styles.css?v=18">
+  <link rel="icon" type="image/svg+xml" href="innovateinw-favicon.svg"><link rel="stylesheet" href="styles.css?v=21">
 </head>
 <body>
 <nav class="nav">
@@ -18,7 +18,7 @@
       <a href="ai-cyber-network.html">AI & Cyber</a>
       <a href="partners.html">Partners</a>
       <a href="about.html">About</a>
-      <a class="btn" href="participate.html">Get Involved</a>
+      <a class="btn" href="participate.html#get-involved">Get Involved</a>
     </div>
   </div>
 </nav>
@@ -60,7 +60,7 @@
     <div class="container">
       <div class="eyebrow purple-eyebrow">Process</div>
       <h2>From idea to traction.</h2>
-      <p class="lead">The process moves founders through foundation building, customer discovery, and business development — using InnovateINW colors and a clearer sequence.</p>
+      <p class="lead">The process moves founders through foundation building, customer discovery, and business development — building confidence and clarity.</p>
       <div class="process-timeline">
         <div class="phase phase-gold">
           <div class="phase-label">Phase 1</div>
@@ -142,15 +142,21 @@
   </section>
 
   <section id="apply" class="section alt apply-section">
-    <div class="container split visual-split">
-      <div>
-        <div class="eyebrow purple-eyebrow">Apply</div>
-        <h2>Tell us how to route you.</h2>
-        <p class="lead">Use the Springboard application to share where you are, what you are building, and how InnovateINW can help route you to the right next step.</p>
-        <p>This embedded Copper form captures the Springboard application directly for follow-up.</p>
-      </div>
-      <div class="formbox copper-box">
-        <iframe src="https://forms.copper.com/j/aN6NdSNddtWbc1t8mGswS2?type=embed" id="aN6NdSNddtWbc1t8mGswS2" title="Embedded Copper Forms" width="500" height="700" frameborder="0"></iframe>
+    <div class="container">
+      <div class="eyebrow purple-eyebrow">Apply</div>
+      <h2>Springboard Application</h2>
+      <p class="lead application-intro">Please fill out the application form to apply for the Springboard program. We will have a 30-minute discovery call with you to see how we can help. If you want to become a mentor or advisor, use the second tab.</p>
+      <div class="form-tabs" data-tabs>
+        <div class="tab-list" role="tablist" aria-label="Springboard forms">
+          <button class="form-tab active" type="button" role="tab" id="tab-application" aria-selected="true" aria-controls="panel-application" data-tab="panel-application">Apply to Springboard</button>
+          <button class="form-tab" type="button" role="tab" id="tab-mentor" aria-selected="false" aria-controls="panel-mentor" data-tab="panel-mentor" tabindex="-1">Apply to Be a Mentor / Advisor</button>
+        </div>
+        <div class="tab-panel active" id="panel-application" role="tabpanel" aria-labelledby="tab-application">
+          <div class="formbox copper-box"><iframe src="https://forms.copper.com/j/aN6NdSNddtWbc1t8mGswS2?type=embed" id="aN6NdSNddtWbc1t8mGswS2" title="Springboard application form" width="500" height="700" frameborder="0"></iframe></div>
+        </div>
+        <div class="tab-panel" id="panel-mentor" role="tabpanel" aria-labelledby="tab-mentor" hidden>
+          <div class="formbox copper-box"><iframe src="https://forms.copper.com/j/8VUVqjy94Vd6zgVwGmNRQh?type=embed" id="8VUVqjy94Vd6zgVwGmNRQh" title="Mentor and advisor application form" width="500" height="700" frameborder="0"></iframe></div>
+        </div>
       </div>
     </div>
   </section>
@@ -165,6 +171,32 @@
 </footer>
 
 <script>
+(function(){
+  document.querySelectorAll('[data-tabs]').forEach(function(tabs){
+    var buttons=Array.prototype.slice.call(tabs.querySelectorAll('[role="tab"]'));
+    function activate(button){
+      buttons.forEach(function(item){
+        var selected=item===button;
+        item.classList.toggle('active',selected);
+        item.setAttribute('aria-selected',selected?'true':'false');
+        item.tabIndex=selected?0:-1;
+        var panel=document.getElementById(item.getAttribute('data-tab'));
+        panel.hidden=!selected;
+        panel.classList.toggle('active',selected);
+      });
+    }
+    buttons.forEach(function(button,index){
+      button.addEventListener('click',function(){activate(button);});
+      button.addEventListener('keydown',function(event){
+        if(event.key!=='ArrowLeft'&&event.key!=='ArrowRight') return;
+        event.preventDefault();
+        var direction=event.key==='ArrowRight'?1:-1;
+        var next=buttons[(index+direction+buttons.length)%buttons.length];
+        activate(next); next.focus();
+      });
+    });
+  });
+})();
 (function(){
   document.querySelectorAll('.menu-toggle').forEach(function(button){
     button.addEventListener('click', function(){

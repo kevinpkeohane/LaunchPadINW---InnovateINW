@@ -165,3 +165,11 @@ a.role-router-card:hover{
 .home-events-layout{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:start}
 .home-events-layout .event-photo{align-self:start;min-height:430px;margin:0}
 @media(max-width:900px){.home-events-layout{grid-template-columns:1fr}.home-events-layout .event-photo{min-height:300px}}
+
+/* Answer-engine readability: concise definition and visible FAQ content. */
+.answer-block{margin-top:32px;padding:24px 28px;border-left:5px solid #f4c542;background:#f7f5fb;border-radius:8px}
+.answer-block h2{margin-top:0}.answer-block p:last-child{margin-bottom:0}
+.faq-list{display:grid;gap:12px;max-width:900px;margin-top:28px}
+.faq-list details{background:#f7f5fb;border:1px solid #e3deee;border-radius:8px;padding:0 20px}
+.faq-list summary{cursor:pointer;font-weight:700;padding:18px 0;color:#2a1e5a}
+.faq-list p{margin:0;padding:0 0 18px;max-width:78ch}

@@ -1,0 +1,48 @@
+InnovateINW — Full Site (About page team update)
+Date: 2026-07-24
+
+WHAT CHANGED THIS UPDATE
+------------------------
+Only the "INW Team" section on about.html was updated to match the latest
+"Our Team" slide. Everything else is unchanged from the 2026-07-17 build.
+
+New team roster (exact slide order + titles):
+  1. Bill Kalivas — Co-Founder, Executive Director
+  2. Allen Battle — Co-Founder and Board Member
+  3. Kevin Keohane — Brand & GTM Advisor
+  4. Tim Krauss — Director of Springboard
+  5. Becky LeBret, MBA, MSHR — Managing Director, Powered by People
+  6. Ed Reese — Digital Marketing Strategy
+  7. Steve Neff — Springboard Development and Board Member
+  8. Paige Ford — Program Manager
+
+Removed (were on the old page, not on the slide):
+  - April Needham
+  - Jamie Sampson
+  - Nicole Earling
+  - Lily Creasey
+
+Photos:
+  - 6 members keep their existing headshots (loaded from launchpadinw.com).
+  - Becky LeBret and Paige Ford have NO headshot yet, so they show a
+    colored circle with initials (BL / PF) as a placeholder.
+  - TO ADD their photos later: in about.html, on their team-photo <div>,
+    add class "has-photo" and a style="background-image:url(...)" pointing
+    at the headshot. Example format is visible on the other 6 cards.
+
+LinkedIn links (all 8 have them):
+  - Becky LeBret: https://www.linkedin.com/in/beckylebret/
+  - Paige Ford:   https://www.linkedin.com/in/paigekford/
+
+HOW TO VIEW
+-----------
+Open index.html (or about.html) in any browser. Team headshots and a few
+partner images load from launchpadinw.com, so an internet connection shows
+them; offline, those show placeholders.
+
+FILES
+-----
+*.html      — all site pages (about.html is the one that changed)
+styles.css  — shared styles
+assets/, downloads/ — supporting media and downloadable files
+*.md, *.txt — build/update notes from prior versions (reference only)

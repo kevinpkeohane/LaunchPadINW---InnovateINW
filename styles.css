@@ -209,6 +209,7 @@ a.role-router-card:hover{
 }
 
 /* Home page news / announcement section */
+.news-section .lead{max-width:none}
 .news-section .cards{margin-top:8px}
 .news-date{font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;color:var(--violet);margin:-4px 0 20px}
 .news-quote{font-size:clamp(20px,2.4vw,26px);line-height:1.35;font-weight:800;color:var(--purple);border-left:6px solid var(--violet);padding:4px 0 4px 22px;margin:30px 0 14px}
